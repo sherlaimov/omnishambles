@@ -1,0 +1,4077 @@
+{
+  "_id": { "$oid": "5b634e774823d5818d38a6bc" },
+  "screen_name": "sherlaimov",
+  "__v": { "$numberInt": "0" },
+  "connections": [
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c6" },
+      "screen_name": "codinghorror",
+      "user_twitter_id": "5637652"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c5" },
+      "screen_name": "axclever",
+      "user_twitter_id": "719469816462106624"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c4" },
+      "screen_name": "jh0l_com",
+      "user_twitter_id": "571828926"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c3" },
+      "screen_name": "b0rk",
+      "user_twitter_id": "6603532"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c2" },
+      "screen_name": "philwalton",
+      "user_twitter_id": "22594744"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c1" },
+      "screen_name": "iamrecruitr",
+      "user_twitter_id": "958313838742528000"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c0" },
+      "screen_name": "codestandards",
+      "user_twitter_id": "2896064258"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21bf" },
+      "screen_name": "codersplzaccept",
+      "user_twitter_id": "3048120623"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21be" },
+      "screen_name": "RussianMemesLtd",
+      "user_twitter_id": "1009054861332238336"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21bd" },
+      "screen_name": "DrunkBinary",
+      "user_twitter_id": "4068173614"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21bc" },
+      "screen_name": "anarasel",
+      "user_twitter_id": "398585410"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21bb" },
+      "screen_name": "boringcompany",
+      "user_twitter_id": "859816394556284929"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ba" },
+      "screen_name": "_whatishappy",
+      "user_twitter_id": "1018795332572983296"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b9" },
+      "screen_name": "audiosampling",
+      "user_twitter_id": "1951889575"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b8" },
+      "screen_name": "asja",
+      "user_twitter_id": "15431907"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b7" },
+      "screen_name": "_clarkio",
+      "user_twitter_id": "2282923778"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b6" },
+      "screen_name": "Evolutionofgods",
+      "user_twitter_id": "586584839"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b5" },
+      "screen_name": "zindelzindel",
+      "user_twitter_id": "3373826458"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b4" },
+      "screen_name": "Textyorgua_Eng",
+      "user_twitter_id": "968892427368050690"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b3" },
+      "screen_name": "thaiboxer8",
+      "user_twitter_id": "1015344184910401539"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b2" },
+      "screen_name": "burkeholland",
+      "user_twitter_id": "14679272"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b1" },
+      "screen_name": "madewithreact",
+      "user_twitter_id": "3061687779"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21b0" },
+      "screen_name": "cyclejs",
+      "user_twitter_id": "703180267033333760"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21af" },
+      "screen_name": "ohNoobDerp",
+      "user_twitter_id": "881371816090009601"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ae" },
+      "screen_name": "gboeing",
+      "user_twitter_id": "15290609"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ad" },
+      "screen_name": "JavaScript",
+      "user_twitter_id": "539345368"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ac" },
+      "screen_name": "howardlindzon",
+      "user_twitter_id": "7517052"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ab" },
+      "screen_name": "computerfact",
+      "user_twitter_id": "4098544215"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21aa" },
+      "screen_name": "botnerds",
+      "user_twitter_id": "711204649416654848"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a9" },
+      "screen_name": "botwikidotorg",
+      "user_twitter_id": "3372585701"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a8" },
+      "screen_name": "britecharts",
+      "user_twitter_id": "835332545126395911"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a7" },
+      "screen_name": "sdubois",
+      "user_twitter_id": "8532472"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a6" },
+      "screen_name": "wallabyjs",
+      "user_twitter_id": "2856174409"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a5" },
+      "screen_name": "MelodicsHQ",
+      "user_twitter_id": "2898834992"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a4" },
+      "screen_name": "svitlanaza",
+      "user_twitter_id": "252631826"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a3" },
+      "screen_name": "thecodingtrain",
+      "user_twitter_id": "819717383975739392"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a2" },
+      "screen_name": "antontroian",
+      "user_twitter_id": "76773876"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a1" },
+      "screen_name": "finjsio",
+      "user_twitter_id": "699943851784589312"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21a0" },
+      "screen_name": "marcinignac",
+      "user_twitter_id": "24587852"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e219f" },
+      "screen_name": "DeveloperDonTV",
+      "user_twitter_id": "3553501694"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e219e" },
+      "screen_name": "podcastcode",
+      "user_twitter_id": "4536719128"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e219d" },
+      "screen_name": "RadioJSPodcast",
+      "user_twitter_id": "2695738903"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e219c" },
+      "screen_name": "5minreact",
+      "user_twitter_id": "800675127939600385"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e219b" },
+      "screen_name": "chisoftware",
+      "user_twitter_id": "3240397048"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e219a" },
+      "screen_name": "WoodMackenzie",
+      "user_twitter_id": "316383161"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2199" },
+      "screen_name": "TimSeverien",
+      "user_twitter_id": "192826394"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2198" },
+      "screen_name": "lviv",
+      "user_twitter_id": "75994395"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2197" },
+      "screen_name": "Fertecon",
+      "user_twitter_id": "159434937"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2196" },
+      "screen_name": "StarshinaZapasa",
+      "user_twitter_id": "1021712844"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2195" },
+      "screen_name": "ICEDataServices",
+      "user_twitter_id": "146460368"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2194" },
+      "screen_name": "ICE_Markets",
+      "user_twitter_id": "25570548"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2193" },
+      "screen_name": "DataGenic",
+      "user_twitter_id": "40429297"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2192" },
+      "screen_name": "drillinginfo",
+      "user_twitter_id": "143807894"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2191" },
+      "screen_name": "globalview",
+      "user_twitter_id": "169621357"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2190" },
+      "screen_name": "oleg008",
+      "user_twitter_id": "69033784"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e218f" },
+      "screen_name": "QualiumSystems",
+      "user_twitter_id": "213048124"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e218e" },
+      "screen_name": "HumansOfLate",
+      "user_twitter_id": "818488898418601984"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e218d" },
+      "screen_name": "DevTipsShow",
+      "user_twitter_id": "2389664502"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e218c" },
+      "screen_name": "E5Trainings",
+      "user_twitter_id": "2454921014"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e218b" },
+      "screen_name": "botcampua",
+      "user_twitter_id": "791235710112194560"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e218a" },
+      "screen_name": "KevinRothrock",
+      "user_twitter_id": "117856715"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2189" },
+      "screen_name": "krasnomovets",
+      "user_twitter_id": "186560933"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2188" },
+      "screen_name": "iamakulov",
+      "user_twitter_id": "2994515967"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2187" },
+      "screen_name": "spectatorindex",
+      "user_twitter_id": "1626294277"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2186" },
+      "screen_name": "JonahFisherBBC",
+      "user_twitter_id": "23052625"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2185" },
+      "screen_name": "skkap",
+      "user_twitter_id": "103340368"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2184" },
+      "screen_name": "Funny_Truth",
+      "user_twitter_id": "296623811"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2183" },
+      "screen_name": "lavrton",
+      "user_twitter_id": "207458459"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2182" },
+      "screen_name": "freiksenet",
+      "user_twitter_id": "18200589"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2181" },
+      "screen_name": "salilstatistics",
+      "user_twitter_id": "716632448252162048"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2180" },
+      "screen_name": "kvoneggert",
+      "user_twitter_id": "28210206"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e217f" },
+      "screen_name": "yebenya",
+      "user_twitter_id": "2488182846"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e217e" },
+      "screen_name": "reactkyiv",
+      "user_twitter_id": "824938894525394945"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e217d" },
+      "screen_name": "ArgusMedia",
+      "user_twitter_id": "50611261"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e217c" },
+      "screen_name": "nntaleb",
+      "user_twitter_id": "381289719"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e217b" },
+      "screen_name": "KharkivCSS",
+      "user_twitter_id": "762705314563129344"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e217a" },
+      "screen_name": "KharkivFrontend",
+      "user_twitter_id": "928904497090433024"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2179" },
+      "screen_name": "rommari",
+      "user_twitter_id": "20368663"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e2178" },
+      "screen_name": "thewastedworld",
+      "user_twitter_id": "940081861178507264"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2177" },
+      "screen_name": "kira__kit",
+      "user_twitter_id": "374385243"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2176" },
+      "screen_name": "Infopulse_ua",
+      "user_twitter_id": "94063295"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2175" },
+      "screen_name": "cryptofun1",
+      "user_twitter_id": "954442387190841345"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2174" },
+      "screen_name": "KoreanGrandpa",
+      "user_twitter_id": "442854319"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2173" },
+      "screen_name": "moroshko",
+      "user_twitter_id": "1038766608"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2172" },
+      "screen_name": "RSachenko",
+      "user_twitter_id": "936257998430797824"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2171" },
+      "screen_name": "MaxRehAllDay",
+      "user_twitter_id": "840635022"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2170" },
+      "screen_name": "MSPowerBI",
+      "user_twitter_id": "227829587"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e216f" },
+      "screen_name": "vrpttrns",
+      "user_twitter_id": "1445367210"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e216e" },
+      "screen_name": "Araptan",
+      "user_twitter_id": "213196602"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e216d" },
+      "screen_name": "Alina_Shu_",
+      "user_twitter_id": "112422381"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e216c" },
+      "screen_name": "TheWorldOfFunny",
+      "user_twitter_id": "1156820016"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e216b" },
+      "screen_name": "NatureisScary",
+      "user_twitter_id": "2458781599"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e216a" },
+      "screen_name": "Sacret19",
+      "user_twitter_id": "582948641"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2169" },
+      "screen_name": "reactjs",
+      "user_twitter_id": "1566463268"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2168" },
+      "screen_name": "florian_thl",
+      "user_twitter_id": "1293311718"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2167" },
+      "screen_name": "readIT4all",
+      "user_twitter_id": "951405350724472832"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2166" },
+      "screen_name": "addyosmani",
+      "user_twitter_id": "35432643"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2165" },
+      "screen_name": "drboolean",
+      "user_twitter_id": "8146272"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2164" },
+      "screen_name": "avovsya",
+      "user_twitter_id": "30636553"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2163" },
+      "screen_name": "bendhalpern",
+      "user_twitter_id": "161419043"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e222a" },
+      "screen_name": "darkproger",
+      "user_twitter_id": "14569117"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2229" },
+      "screen_name": "YORIYUKIII",
+      "user_twitter_id": "2552623308"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e2228" },
+      "screen_name": "annamshevchenko",
+      "user_twitter_id": "169168254"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2227" },
+      "screen_name": "b_genbach",
+      "user_twitter_id": "229404642"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2226" },
+      "screen_name": "amperka",
+      "user_twitter_id": "165828592"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2225" },
+      "screen_name": "PixelsCommander",
+      "user_twitter_id": "48006556"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2224" },
+      "screen_name": "stasgavrylov",
+      "user_twitter_id": "98137387"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2223" },
+      "screen_name": "kostyandrii",
+      "user_twitter_id": "186080008"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2222" },
+      "screen_name": "d_spiegel",
+      "user_twitter_id": "76956597"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2221" },
+      "screen_name": "ko_bx",
+      "user_twitter_id": "323239986"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2220" },
+      "screen_name": "GobovD",
+      "user_twitter_id": "919161429604945920"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e221f" },
+      "screen_name": "Vlada_Nafta",
+      "user_twitter_id": "513355114"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e221e" },
+      "screen_name": "ComedyRu",
+      "user_twitter_id": "182527121"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e221d" },
+      "screen_name": "sitnikcode",
+      "user_twitter_id": "875500444537237506"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e221c" },
+      "screen_name": "aemkei",
+      "user_twitter_id": "807289"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e221b" },
+      "screen_name": "d3indepth",
+      "user_twitter_id": "757317701052276736"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e221a" },
+      "screen_name": "d_ichor",
+      "user_twitter_id": "3007345180"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2219" },
+      "screen_name": "mf_viz",
+      "user_twitter_id": "282130842"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2218" },
+      "screen_name": "patrickm145",
+      "user_twitter_id": "396856913"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2217" },
+      "screen_name": "AwardsDarwin",
+      "user_twitter_id": "3125154047"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2216" },
+      "screen_name": "orbital_insight",
+      "user_twitter_id": "2856392653"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2215" },
+      "screen_name": "privetsuka3",
+      "user_twitter_id": "476819292"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2214" },
+      "screen_name": "anvaka",
+      "user_twitter_id": "84120432"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2213" },
+      "screen_name": "nodeschool_kiev",
+      "user_twitter_id": "910409024713129985"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2212" },
+      "screen_name": "Yarovyshnya",
+      "user_twitter_id": "1655454624"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2211" },
+      "screen_name": "vladyslav666",
+      "user_twitter_id": "831218654129831937"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2210" },
+      "screen_name": "AbsoKulikov",
+      "user_twitter_id": "2611043089"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e220f" },
+      "screen_name": "5NAK",
+      "user_twitter_id": "29278013"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e220e" },
+      "screen_name": "flowtype",
+      "user_twitter_id": "2878457194"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e220d" },
+      "screen_name": "kh_drift",
+      "user_twitter_id": "2759885940"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e220c" },
+      "screen_name": "linguopunk",
+      "user_twitter_id": "801626733267001345"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e220b" },
+      "screen_name": "neilhalloran",
+      "user_twitter_id": "80201928"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e220a" },
+      "screen_name": "blockchain",
+      "user_twitter_id": "125304737"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2209" },
+      "screen_name": "coinbase",
+      "user_twitter_id": "574032254"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2208" },
+      "screen_name": "HVFLabs",
+      "user_twitter_id": "2147592799"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2207" },
+      "screen_name": "CouldWrong",
+      "user_twitter_id": "3002382735"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2206" },
+      "screen_name": "norimyxxxo",
+      "user_twitter_id": "111425302"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2205" },
+      "screen_name": "BerrrGerrr",
+      "user_twitter_id": "346203444"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2204" },
+      "screen_name": "amesimmons",
+      "user_twitter_id": "42308418"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2203" },
+      "screen_name": "SychVitaly",
+      "user_twitter_id": "2654941482"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2202" },
+      "screen_name": "koistya",
+      "user_twitter_id": "16394396"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2201" },
+      "screen_name": "bzikalka",
+      "user_twitter_id": "216428330"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e2200" },
+      "screen_name": "kharkovpage",
+      "user_twitter_id": "874764338892066816"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ff" },
+      "screen_name": "tonyhschu",
+      "user_twitter_id": "15871237"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21fe" },
+      "screen_name": "ddjournalism",
+      "user_twitter_id": "303687748"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21fd" },
+      "screen_name": "svgeesus",
+      "user_twitter_id": "128295889"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21fc" },
+      "screen_name": "lostinwiki",
+      "user_twitter_id": "4704788613"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21fb" },
+      "screen_name": "iamjohnoliver",
+      "user_twitter_id": "316389142"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21fa" },
+      "screen_name": "SketchGrp",
+      "user_twitter_id": "1403144497"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f9" },
+      "screen_name": "Symphony",
+      "user_twitter_id": "7697482"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f8" },
+      "screen_name": "LawrenceA_UK",
+      "user_twitter_id": "96593759"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f7" },
+      "screen_name": "72mena",
+      "user_twitter_id": "214668658"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f6" },
+      "screen_name": "raxpost",
+      "user_twitter_id": "32959868"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f5" },
+      "screen_name": "SoftServeCareer",
+      "user_twitter_id": "95185893"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f4" },
+      "screen_name": "m_zaporozhets",
+      "user_twitter_id": "157988204"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f3" },
+      "screen_name": "PashaXVI",
+      "user_twitter_id": "2754156970"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f2" },
+      "screen_name": "VictoriaMegera",
+      "user_twitter_id": "2581301747"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f1" },
+      "screen_name": "enjalot",
+      "user_twitter_id": "16030323"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21f0" },
+      "screen_name": "msexcel",
+      "user_twitter_id": "15934026"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ef" },
+      "screen_name": "unlog1c",
+      "user_twitter_id": "68252161"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ee" },
+      "screen_name": "marinintim",
+      "user_twitter_id": "222023834"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ed" },
+      "screen_name": "WeChatApp",
+      "user_twitter_id": "487312107"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ec" },
+      "screen_name": "chartiq",
+      "user_twitter_id": "473118856"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21eb" },
+      "screen_name": "facebookdesign",
+      "user_twitter_id": "78645888"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ea" },
+      "screen_name": "depictureio",
+      "user_twitter_id": "823986262839357440"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e9" },
+      "screen_name": "forwebdev",
+      "user_twitter_id": "2401225196"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e8" },
+      "screen_name": "Vdrumtips",
+      "user_twitter_id": "2819648531"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e7" },
+      "screen_name": "CodeceptJS",
+      "user_twitter_id": "4350302788"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e6" },
+      "screen_name": "gabrielflorit",
+      "user_twitter_id": "96152942"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e5" },
+      "screen_name": "Elijah_Meeks",
+      "user_twitter_id": "1387915232"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e4" },
+      "screen_name": "flowingdata",
+      "user_twitter_id": "14109167"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e3" },
+      "screen_name": "dashaorlova",
+      "user_twitter_id": "27297726"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e2" },
+      "screen_name": "VisualCap",
+      "user_twitter_id": "352515718"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e1" },
+      "screen_name": "darkstockphotos",
+      "user_twitter_id": "870566128346697728"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21e0" },
+      "screen_name": "pttrns",
+      "user_twitter_id": "256287700"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21df" },
+      "screen_name": "Eyal_Ar",
+      "user_twitter_id": "315392510"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21de" },
+      "screen_name": "devellloper",
+      "user_twitter_id": "818082133826818049"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21dd" },
+      "screen_name": "smd4",
+      "user_twitter_id": "27496251"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21dc" },
+      "screen_name": "JSJabber",
+      "user_twitter_id": "456802802"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21db" },
+      "screen_name": "momondo_ua",
+      "user_twitter_id": "2645642341"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21da" },
+      "screen_name": "FrontendMasters",
+      "user_twitter_id": "981309937"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d9" },
+      "screen_name": "LeRenardGrande",
+      "user_twitter_id": "486997575"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d8" },
+      "screen_name": "Litteralis",
+      "user_twitter_id": "109314589"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d7" },
+      "screen_name": "numberphile",
+      "user_twitter_id": "393621632"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d6" },
+      "screen_name": "Ukraine",
+      "user_twitter_id": "732521058507620356"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d5" },
+      "screen_name": "ChetkiyTASS",
+      "user_twitter_id": "783344088292663296"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d4" },
+      "screen_name": "kennycheny",
+      "user_twitter_id": "711659959"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d3" },
+      "screen_name": "Segozavr",
+      "user_twitter_id": "2391799280"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d2" },
+      "screen_name": "pbesh",
+      "user_twitter_id": "90797974"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d1" },
+      "screen_name": "M0sth8",
+      "user_twitter_id": "14380975"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21d0" },
+      "screen_name": "DanKhomutovskiy",
+      "user_twitter_id": "94172281"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21cf" },
+      "screen_name": "Chachibaya",
+      "user_twitter_id": "227642171"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ce" },
+      "screen_name": "prjctrcomua",
+      "user_twitter_id": "4082889261"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21cd" },
+      "screen_name": "MrFreeman0",
+      "user_twitter_id": "76046726"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21cc" },
+      "screen_name": "GusovskySergiy",
+      "user_twitter_id": "2242894239"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21cb" },
+      "screen_name": "Timmi_Allen",
+      "user_twitter_id": "424175566"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21ca" },
+      "screen_name": "avianewscom",
+      "user_twitter_id": "172090298"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c9" },
+      "screen_name": "olgabychkova",
+      "user_twitter_id": "187676769"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c8" },
+      "screen_name": "nodejs",
+      "user_twitter_id": "91985735"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e77325c51208b5e21c7" },
+      "screen_name": "bobuk",
+      "user_twitter_id": "1942851"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e228e" },
+      "screen_name": "nerdyasians",
+      "user_twitter_id": "717740325427515392"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e228d" },
+      "screen_name": "magicleap",
+      "user_twitter_id": "106109075"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e228c" },
+      "screen_name": "yavorsky_",
+      "user_twitter_id": "163653070"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e228b" },
+      "screen_name": "andreysitnik",
+      "user_twitter_id": "2402097420"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e228a" },
+      "screen_name": "bunopus",
+      "user_twitter_id": "2832757882"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2289" },
+      "screen_name": "Histreepix",
+      "user_twitter_id": "2872143327"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2288" },
+      "screen_name": "andrey_sitnik",
+      "user_twitter_id": "62229769"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2287" },
+      "screen_name": "fermatslibrary",
+      "user_twitter_id": "3511430425"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2286" },
+      "screen_name": "datalaboratory",
+      "user_twitter_id": "1432947212"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2285" },
+      "screen_name": "shutyourprogram",
+      "user_twitter_id": "3046991649"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2284" },
+      "screen_name": "nodemjs",
+      "user_twitter_id": "726168495004782592"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2283" },
+      "screen_name": "prostatistika",
+      "user_twitter_id": "4251326483"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2282" },
+      "screen_name": "Novorossiya_PR",
+      "user_twitter_id": "2449085563"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2281" },
+      "screen_name": "madebyzara",
+      "user_twitter_id": "793738092263923712"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2280" },
+      "screen_name": "tuchk4",
+      "user_twitter_id": "1383115434"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e227f" },
+      "screen_name": "AGambit95",
+      "user_twitter_id": "2551066854"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e227e" },
+      "screen_name": "frontendgirl",
+      "user_twitter_id": "3323126609"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e227d" },
+      "screen_name": "iam_preethi",
+      "user_twitter_id": "1478433775"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e227c" },
+      "screen_name": "BesseIFunction",
+      "user_twitter_id": "184016348"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e227b" },
+      "screen_name": "CrazyGloble",
+      "user_twitter_id": "2760908092"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e227a" },
+      "screen_name": "colorfavs",
+      "user_twitter_id": "3281620525"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2279" },
+      "screen_name": "stanislavskiy",
+      "user_twitter_id": "21441278"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2278" },
+      "screen_name": "jondot",
+      "user_twitter_id": "25607541"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2277" },
+      "screen_name": "webanimworkshop",
+      "user_twitter_id": "760873884019228672"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2276" },
+      "screen_name": "allenholub",
+      "user_twitter_id": "21375846"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2275" },
+      "screen_name": "modelio_org",
+      "user_twitter_id": "285517705"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2274" },
+      "screen_name": "Costfucker",
+      "user_twitter_id": "2575290661"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2273" },
+      "screen_name": "getbootstrap",
+      "user_twitter_id": "372475592"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2272" },
+      "screen_name": "wesbos",
+      "user_twitter_id": "815246"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2271" },
+      "screen_name": "MichaelDimock",
+      "user_twitter_id": "1139903348"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2270" },
+      "screen_name": "lodygin",
+      "user_twitter_id": "92049665"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e226f" },
+      "screen_name": "adam_messinger",
+      "user_twitter_id": "1747381"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e226e" },
+      "screen_name": "ThingsWork",
+      "user_twitter_id": "2217099931"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e226d" },
+      "screen_name": "ContainerArtRes",
+      "user_twitter_id": "2804856048"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e226c" },
+      "screen_name": "typicalagency",
+      "user_twitter_id": "3342818620"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e226b" },
+      "screen_name": "DashingD3js",
+      "user_twitter_id": "95266520"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e226a" },
+      "screen_name": "d3visualization",
+      "user_twitter_id": "1006945298"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2269" },
+      "screen_name": "mbostock",
+      "user_twitter_id": "43593"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2268" },
+      "screen_name": "IIBA",
+      "user_twitter_id": "599479570"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2267" },
+      "screen_name": "progpaintings",
+      "user_twitter_id": "720616108907237380"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2266" },
+      "screen_name": "superpuper_n",
+      "user_twitter_id": "799196575260143616"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2265" },
+      "screen_name": "the_ubj",
+      "user_twitter_id": "739807598069829633"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2264" },
+      "screen_name": "cssanimation",
+      "user_twitter_id": "2970188561"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2263" },
+      "screen_name": "Quod_non",
+      "user_twitter_id": "382081571"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2262" },
+      "screen_name": "ProcessingOrg",
+      "user_twitter_id": "876624356"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2261" },
+      "screen_name": "Jieqian_Zhang",
+      "user_twitter_id": "700304010"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2260" },
+      "screen_name": "JeffBianco",
+      "user_twitter_id": "231469918"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e225f" },
+      "screen_name": "DevProNet",
+      "user_twitter_id": "378642579"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e225e" },
+      "screen_name": "dotCSS",
+      "user_twitter_id": "977376170"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e225d" },
+      "screen_name": "SBozhko",
+      "user_twitter_id": "140950559"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e225c" },
+      "screen_name": "d3js_org",
+      "user_twitter_id": "4597853354"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e225b" },
+      "screen_name": "datasketches",
+      "user_twitter_id": "744209572089323520"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e225a" },
+      "screen_name": "NadiehBremer",
+      "user_twitter_id": "242069220"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2259" },
+      "screen_name": "sofasessioncom",
+      "user_twitter_id": "714425575"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2258" },
+      "screen_name": "vdrcircle",
+      "user_twitter_id": "236606446"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2257" },
+      "screen_name": "naumenko_oleg",
+      "user_twitter_id": "2373874514"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2256" },
+      "screen_name": "65_drums",
+      "user_twitter_id": "4715799282"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2255" },
+      "screen_name": "alexkarpekov",
+      "user_twitter_id": "99574972"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2254" },
+      "screen_name": "zygaro",
+      "user_twitter_id": "56629775"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2253" },
+      "screen_name": "goabstract",
+      "user_twitter_id": "710544869765165057"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2252" },
+      "screen_name": "pyotr_k",
+      "user_twitter_id": "43775541"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2251" },
+      "screen_name": "SwaggerApi",
+      "user_twitter_id": "347714174"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2250" },
+      "screen_name": "_deardata",
+      "user_twitter_id": "2848359778"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e224f" },
+      "screen_name": "kievfprog",
+      "user_twitter_id": "781008547140239360"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e224e" },
+      "screen_name": "Mortis_Banned",
+      "user_twitter_id": "431609013"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e224d" },
+      "screen_name": "skolkovo_ru",
+      "user_twitter_id": "163380941"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e224c" },
+      "screen_name": "AtifRMian",
+      "user_twitter_id": "1093064581"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e224b" },
+      "screen_name": "worrydream",
+      "user_twitter_id": "255617445"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e224a" },
+      "screen_name": "borovikov",
+      "user_twitter_id": "14354160"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2249" },
+      "screen_name": "KirillBreguet",
+      "user_twitter_id": "779404031894642688"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2248" },
+      "screen_name": "StatistaCharts",
+      "user_twitter_id": "499584878"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2247" },
+      "screen_name": "ReutersGraphics",
+      "user_twitter_id": "1310201424"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2246" },
+      "screen_name": "obnoxious_mari",
+      "user_twitter_id": "551208027"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2245" },
+      "screen_name": "JohnnyRomashka",
+      "user_twitter_id": "796398542"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2244" },
+      "screen_name": "dar_lym",
+      "user_twitter_id": "735414480100851712"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2243" },
+      "screen_name": "sandra_sobanska",
+      "user_twitter_id": "2359853124"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2242" },
+      "screen_name": "ebanoe_it",
+      "user_twitter_id": "358639633"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2241" },
+      "screen_name": "athomasq",
+      "user_twitter_id": "486870620"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2240" },
+      "screen_name": "varya_en",
+      "user_twitter_id": "2279709949"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e223f" },
+      "screen_name": "ChrisTauziet",
+      "user_twitter_id": "18629321"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e223e" },
+      "screen_name": "JuliCherniak",
+      "user_twitter_id": "428494755"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e223d" },
+      "screen_name": "smirnov",
+      "user_twitter_id": "4331601"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e223c" },
+      "screen_name": "sexsecrethood",
+      "user_twitter_id": "743173486164606976"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e223b" },
+      "screen_name": "beetroot_se",
+      "user_twitter_id": "1931032225"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e223a" },
+      "screen_name": "Highcharts",
+      "user_twitter_id": "594421145"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2239" },
+      "screen_name": "WendyRWang",
+      "user_twitter_id": "1278778351"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2238" },
+      "screen_name": "bterlson",
+      "user_twitter_id": "2178685814"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2237" },
+      "screen_name": "Shitty_Future",
+      "user_twitter_id": "4727899720"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2236" },
+      "screen_name": "rofh",
+      "user_twitter_id": "77433893"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2235" },
+      "screen_name": "shvaikalesh",
+      "user_twitter_id": "3869401815"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2234" },
+      "screen_name": "SovietReactions",
+      "user_twitter_id": "731108674622640128"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2233" },
+      "screen_name": "Dev_UA_Horse",
+      "user_twitter_id": "728176445428740096"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2232" },
+      "screen_name": "Peter_Dinklage",
+      "user_twitter_id": "1319554081"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2231" },
+      "screen_name": "TheTerminal",
+      "user_twitter_id": "3236381990"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2230" },
+      "screen_name": "GK3",
+      "user_twitter_id": "17532167"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e222f" },
+      "screen_name": "mr_mig_by",
+      "user_twitter_id": "170772902"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e222e" },
+      "screen_name": "Anticor_Kharkiv",
+      "user_twitter_id": "724948433275072514"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e222d" },
+      "screen_name": "jonathoda",
+      "user_twitter_id": "142507295"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e222c" },
+      "screen_name": "DarioGraphics",
+      "user_twitter_id": "327993427"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e222b" },
+      "screen_name": "agragregra",
+      "user_twitter_id": "367338989"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22f2" },
+      "screen_name": "dohod_ru",
+      "user_twitter_id": "269783022"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22f1" },
+      "screen_name": "natashadoff",
+      "user_twitter_id": "245863389"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22f0" },
+      "screen_name": "jedschmidt",
+      "user_twitter_id": "815114"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ef" },
+      "screen_name": "EnglishRussia1",
+      "user_twitter_id": "295216750"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ee" },
+      "screen_name": "MarijnJH",
+      "user_twitter_id": "47585779"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ed" },
+      "screen_name": "listochkin",
+      "user_twitter_id": "20910792"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ec" },
+      "screen_name": "Free_Events_HK",
+      "user_twitter_id": "2417251992"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22eb" },
+      "screen_name": "codewars",
+      "user_twitter_id": "709267872"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ea" },
+      "screen_name": "xgrommx",
+      "user_twitter_id": "354807612"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e9" },
+      "screen_name": "CrazyinRussia",
+      "user_twitter_id": "2904195838"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e8" },
+      "screen_name": "mserous",
+      "user_twitter_id": "258522742"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e7" },
+      "screen_name": "TerribleMaps",
+      "user_twitter_id": "1663172653"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e6" },
+      "screen_name": "zlwise",
+      "user_twitter_id": "930581"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e5" },
+      "screen_name": "e_kazakova46",
+      "user_twitter_id": "2784048429"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e4" },
+      "screen_name": "ProductHuntTO",
+      "user_twitter_id": "3064092668"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e3" },
+      "screen_name": "ChromeDevTools",
+      "user_twitter_id": "2862241270"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e2" },
+      "screen_name": "uahrivna",
+      "user_twitter_id": "2915230065"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e1" },
+      "screen_name": "DesignerStartup",
+      "user_twitter_id": "3322489026"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22e0" },
+      "screen_name": "fbchess",
+      "user_twitter_id": "4596710952"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22df" },
+      "screen_name": "History__W",
+      "user_twitter_id": "4837464838"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e22de" },
+      "screen_name": "MaStep92",
+      "user_twitter_id": "287868812"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22dd" },
+      "screen_name": "chorna_kiwka",
+      "user_twitter_id": "147117873"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22dc" },
+      "screen_name": "waitbutwhy",
+      "user_twitter_id": "1282121312"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22db" },
+      "screen_name": "ZvonarevaMar1na",
+      "user_twitter_id": "2902018610"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22da" },
+      "screen_name": "imserhii",
+      "user_twitter_id": "4820654427"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d9" },
+      "screen_name": "phstreview",
+      "user_twitter_id": "4059034091"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d8" },
+      "screen_name": "RusEmbassyNot",
+      "user_twitter_id": "4815830237"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d7" },
+      "screen_name": "framer",
+      "user_twitter_id": "1056838028"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d6" },
+      "screen_name": "gniloywest",
+      "user_twitter_id": "3084141562"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d5" },
+      "screen_name": "Sputnik_Not",
+      "user_twitter_id": "4382006968"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d4" },
+      "screen_name": "vp_videos",
+      "user_twitter_id": "2514570776"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d3" },
+      "screen_name": "BuzzFeedJS",
+      "user_twitter_id": "2404966634"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d2" },
+      "screen_name": "internetofshit",
+      "user_twitter_id": "3356531254"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d1" },
+      "screen_name": "andriylogvin",
+      "user_twitter_id": "133446591"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22d0" },
+      "screen_name": "BBGVisualData",
+      "user_twitter_id": "1433652877"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22cf" },
+      "screen_name": "dinisivgenich",
+      "user_twitter_id": "4494564580"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ce" },
+      "screen_name": "TEDxKyiv",
+      "user_twitter_id": "42015340"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22cd" },
+      "screen_name": "AlanWattsDaily",
+      "user_twitter_id": "77394327"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22cc" },
+      "screen_name": "envato",
+      "user_twitter_id": "16582191"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22cb" },
+      "screen_name": "ComOne_Eltima",
+      "user_twitter_id": "3407017395"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ca" },
+      "screen_name": "NikolayTalanov",
+      "user_twitter_id": "2456867893"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c9" },
+      "screen_name": "kayako_develop",
+      "user_twitter_id": "3687113477"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c8" },
+      "screen_name": "obrizan",
+      "user_twitter_id": "34229100"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c7" },
+      "screen_name": "JavaScriptDaily",
+      "user_twitter_id": "459275531"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c6" },
+      "screen_name": "tanya_schatz",
+      "user_twitter_id": "2303736223"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c5" },
+      "screen_name": "backendsecret",
+      "user_twitter_id": "3302551618"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c4" },
+      "screen_name": "LowcostAvia",
+      "user_twitter_id": "2420360234"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c3" },
+      "screen_name": "Anakoyher",
+      "user_twitter_id": "2296219634"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c2" },
+      "screen_name": "NevzorovAG",
+      "user_twitter_id": "548561298"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c1" },
+      "screen_name": "MikaelSkillt",
+      "user_twitter_id": "515889482"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22c0" },
+      "screen_name": "kqxsr",
+      "user_twitter_id": "77976618"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22bf" },
+      "screen_name": "sadmikalai",
+      "user_twitter_id": "3301902172"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22be" },
+      "screen_name": "Snowden",
+      "user_twitter_id": "2916305152"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22bd" },
+      "screen_name": "StalinGulag",
+      "user_twitter_id": "20905367"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22bc" },
+      "screen_name": "30SecKOs",
+      "user_twitter_id": "3364275586"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e22bb" },
+      "screen_name": "TheKharkivTimes",
+      "user_twitter_id": "3217621464"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ba" },
+      "screen_name": "CSS_Hero",
+      "user_twitter_id": "1479885534"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b9" },
+      "screen_name": "gskinner",
+      "user_twitter_id": "17067603"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b8" },
+      "screen_name": "webkit",
+      "user_twitter_id": "14315023"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b7" },
+      "screen_name": "davert",
+      "user_twitter_id": "17285085"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b6" },
+      "screen_name": "Dan_Kushnaryov",
+      "user_twitter_id": "2417323242"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b5" },
+      "screen_name": "webstandards_ru",
+      "user_twitter_id": "42081171"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b4" },
+      "screen_name": "TwitterData",
+      "user_twitter_id": "1526228120"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b3" },
+      "screen_name": "KezzBracey",
+      "user_twitter_id": "18242419"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b2" },
+      "screen_name": "oldLentach",
+      "user_twitter_id": "2457390594"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b1" },
+      "screen_name": "fiztehjoke",
+      "user_twitter_id": "379851056"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22b0" },
+      "screen_name": "yarko",
+      "user_twitter_id": "79977723"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22af" },
+      "screen_name": "SolomonMg",
+      "user_twitter_id": "76228303"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ae" },
+      "screen_name": "timberners_lee",
+      "user_twitter_id": "84351228"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ad" },
+      "screen_name": "POTUS44",
+      "user_twitter_id": "1536791610"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ac" },
+      "screen_name": "idobrohorska",
+      "user_twitter_id": "908902807"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22ab" },
+      "screen_name": "sudodoki",
+      "user_twitter_id": "1903684836"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22aa" },
+      "screen_name": "kottans_org",
+      "user_twitter_id": "2407731031"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a9" },
+      "screen_name": "SlackHQ",
+      "user_twitter_id": "1305940272"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a8" },
+      "screen_name": "frontend_jokes",
+      "user_twitter_id": "2230480177"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a7" },
+      "screen_name": "maxmaxmaxmax",
+      "user_twitter_id": "19794630"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a6" },
+      "screen_name": "LvivJS",
+      "user_twitter_id": "1024032823"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a5" },
+      "screen_name": "KharkivMobDevs",
+      "user_twitter_id": "608940091"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a4" },
+      "screen_name": "Yakowina",
+      "user_twitter_id": "55509610"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a3" },
+      "screen_name": "jsunderhood",
+      "user_twitter_id": "3014054307"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a2" },
+      "screen_name": "U_IT_School",
+      "user_twitter_id": "2931927083"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a1" },
+      "screen_name": "visuals_ua",
+      "user_twitter_id": "2983141024"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e22a0" },
+      "screen_name": "e_styd",
+      "user_twitter_id": "10712082"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e229f" },
+      "screen_name": "wdtuts",
+      "user_twitter_id": "17135931"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e229e" },
+      "screen_name": "WardCunningham",
+      "user_twitter_id": "12381352"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e229d" },
+      "screen_name": "m_tsvetkova",
+      "user_twitter_id": "289983864"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e229c" },
+      "screen_name": "dolgovstrasse",
+      "user_twitter_id": "2608317396"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e229b" },
+      "screen_name": "moritz_stefaner",
+      "user_twitter_id": "1366811"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e229a" },
+      "screen_name": "a_caseyquinn",
+      "user_twitter_id": "2307007795"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e78325c51208b5e2299" },
+      "screen_name": "nolanwpeterson",
+      "user_twitter_id": "21976616"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2298" },
+      "screen_name": "zbig",
+      "user_twitter_id": "1115348904"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2297" },
+      "screen_name": "Bce_Tak",
+      "user_twitter_id": "431927283"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2296" },
+      "screen_name": "ItBursa",
+      "user_twitter_id": "3212922941"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2295" },
+      "screen_name": "xanf_ua",
+      "user_twitter_id": "16112270"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2294" },
+      "screen_name": "SiliconHBO",
+      "user_twitter_id": "2821417461"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2293" },
+      "screen_name": "OlaRosling",
+      "user_twitter_id": "89266393"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2292" },
+      "screen_name": "Hromadske_kh",
+      "user_twitter_id": "3110991188"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2291" },
+      "screen_name": "matychak_t",
+      "user_twitter_id": "3102035650"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e2290" },
+      "screen_name": "abdujalil",
+      "user_twitter_id": "182373921"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e78325c51208b5e228f" },
+      "screen_name": "5HT",
+      "user_twitter_id": "21354640"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2356" },
+      "screen_name": "lambdadmitry",
+      "user_twitter_id": "333641596"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2355" },
+      "screen_name": "WSJstartup",
+      "user_twitter_id": "937386085"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2354" },
+      "screen_name": "JoN_TM",
+      "user_twitter_id": "110398672"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2353" },
+      "screen_name": "sama",
+      "user_twitter_id": "1605"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2352" },
+      "screen_name": "DanaMelen",
+      "user_twitter_id": "290170899"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2351" },
+      "screen_name": "PalantirTech",
+      "user_twitter_id": "37959591"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2350" },
+      "screen_name": "hikariolga",
+      "user_twitter_id": "1313498599"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e234f" },
+      "screen_name": "amazingmap",
+      "user_twitter_id": "273418969"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e234e" },
+      "screen_name": "Aristocrats_R",
+      "user_twitter_id": "2353458481"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e234d" },
+      "screen_name": "AndreyOstroukh",
+      "user_twitter_id": "888958195"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e234c" },
+      "screen_name": "OlexanderMotsyk",
+      "user_twitter_id": "2980524749"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e234b" },
+      "screen_name": "aaron_epstein",
+      "user_twitter_id": "28612255"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e234a" },
+      "screen_name": "Nancy__Fleming",
+      "user_twitter_id": "88675990"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2349" },
+      "screen_name": "johnangier",
+      "user_twitter_id": "170626082"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2348" },
+      "screen_name": "meduza_en",
+      "user_twitter_id": "3004163369"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2347" },
+      "screen_name": "stephenfry",
+      "user_twitter_id": "15439395"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2346" },
+      "screen_name": "tproger",
+      "user_twitter_id": "407731807"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2345" },
+      "screen_name": "ThinkAtheist",
+      "user_twitter_id": "17697300"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2344" },
+      "screen_name": "roma_kornev",
+      "user_twitter_id": "329958816"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2343" },
+      "screen_name": "Truver_Inc",
+      "user_twitter_id": "3003377452"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2342" },
+      "screen_name": "ArkadyOstrovsky",
+      "user_twitter_id": "425126826"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2341" },
+      "screen_name": "VedomostiLive",
+      "user_twitter_id": "368447988"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2340" },
+      "screen_name": "sanctionswatch",
+      "user_twitter_id": "2714631858"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e233f" },
+      "screen_name": "fwdays",
+      "user_twitter_id": "360108375"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e233e" },
+      "screen_name": "uawebchallenge",
+      "user_twitter_id": "247812310"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e233d" },
+      "screen_name": "FreedomSquareUA",
+      "user_twitter_id": "2828484359"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e233c" },
+      "screen_name": "c_deane",
+      "user_twitter_id": "108672937"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e233b" },
+      "screen_name": "AkhmedZakayev",
+      "user_twitter_id": "867534396"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e233a" },
+      "screen_name": "tripolstark",
+      "user_twitter_id": "603347114"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2339" },
+      "screen_name": "HackerNewsOnion",
+      "user_twitter_id": "1263967268"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2338" },
+      "screen_name": "dou_calendar",
+      "user_twitter_id": "1637748546"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2337" },
+      "screen_name": "MasterUpCourses",
+      "user_twitter_id": "801234666"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2336" },
+      "screen_name": "kizmarh",
+      "user_twitter_id": "376160328"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2335" },
+      "screen_name": "hipsterhacker",
+      "user_twitter_id": "261546340"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2334" },
+      "screen_name": "glorphindale",
+      "user_twitter_id": "57327055"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2333" },
+      "screen_name": "sob4ak_2018",
+      "user_twitter_id": "446535203"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2332" },
+      "screen_name": "nagharajabishek",
+      "user_twitter_id": "35492853"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2331" },
+      "screen_name": "lukew",
+      "user_twitter_id": "13889622"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2330" },
+      "screen_name": "fri_kharkiv",
+      "user_twitter_id": "2767171901"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e232f" },
+      "screen_name": "YuliyaZarn",
+      "user_twitter_id": "1580555352"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e232e" },
+      "screen_name": "SublimeTxtTips",
+      "user_twitter_id": "724186104"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e232d" },
+      "screen_name": "astro_reid",
+      "user_twitter_id": "330921167"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e232c" },
+      "screen_name": "Queen_Europe",
+      "user_twitter_id": "407347022"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e232b" },
+      "screen_name": "harry_darkins",
+      "user_twitter_id": "720494670"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e232a" },
+      "screen_name": "mrevgenylebedev",
+      "user_twitter_id": "279061979"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2329" },
+      "screen_name": "KonstantinBznv",
+      "user_twitter_id": "18698762"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2328" },
+      "screen_name": "tristanmasat",
+      "user_twitter_id": "2204044973"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2327" },
+      "screen_name": "FollowChris",
+      "user_twitter_id": "17833372"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2326" },
+      "screen_name": "edjafarov",
+      "user_twitter_id": "18898176"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2325" },
+      "screen_name": "unlockUA",
+      "user_twitter_id": "487836200"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2324" },
+      "screen_name": "tim_cook",
+      "user_twitter_id": "1636590253"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2323" },
+      "screen_name": "neonick",
+      "user_twitter_id": "14238114"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2322" },
+      "screen_name": "Worry",
+      "user_twitter_id": "2195920676"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2321" },
+      "screen_name": "redkin_",
+      "user_twitter_id": "726570001"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2320" },
+      "screen_name": "levwalkin",
+      "user_twitter_id": "103231091"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e231f" },
+      "screen_name": "emmetio",
+      "user_twitter_id": "805389206"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e231e" },
+      "screen_name": "GRRM",
+      "user_twitter_id": "2442381762"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e231d" },
+      "screen_name": "UXMarksTheSpot",
+      "user_twitter_id": "81952186"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e231c" },
+      "screen_name": "borryshasian",
+      "user_twitter_id": "28290909"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e231b" },
+      "screen_name": "MariaZhdanova3",
+      "user_twitter_id": "1487330905"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e231a" },
+      "screen_name": "Fake_MZS",
+      "user_twitter_id": "2447977897"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2319" },
+      "screen_name": "pavelsheremet",
+      "user_twitter_id": "606060398"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2318" },
+      "screen_name": "DietKGB",
+      "user_twitter_id": "2555305411"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2317" },
+      "screen_name": "fakeDNR",
+      "user_twitter_id": "2514825442"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2316" },
+      "screen_name": "Slavyansk_UA",
+      "user_twitter_id": "2491036992"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2315" },
+      "screen_name": "U_Malashenko",
+      "user_twitter_id": "346067112"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2314" },
+      "screen_name": "POS_troi",
+      "user_twitter_id": "62336528"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2313" },
+      "screen_name": "ukraina_dnya",
+      "user_twitter_id": "2332763915"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2312" },
+      "screen_name": "CIA",
+      "user_twitter_id": "2359926157"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2311" },
+      "screen_name": "Zurab_Alasania",
+      "user_twitter_id": "55907768"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2310" },
+      "screen_name": "li_non",
+      "user_twitter_id": "143360451"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e230f" },
+      "screen_name": "SurooshAlvi",
+      "user_twitter_id": "388076619"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e230e" },
+      "screen_name": "GrasswireFacts",
+      "user_twitter_id": "2389973804"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e230d" },
+      "screen_name": "pewinternet",
+      "user_twitter_id": "17071048"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e230c" },
+      "screen_name": "sitcom7",
+      "user_twitter_id": "1261572266"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e230b" },
+      "screen_name": "chrisnunnphoto",
+      "user_twitter_id": "411535185"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e230a" },
+      "screen_name": "Sam_Eurasia",
+      "user_twitter_id": "132463960"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2309" },
+      "screen_name": "uxresearchguy",
+      "user_twitter_id": "15491068"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2308" },
+      "screen_name": "UXMetrics",
+      "user_twitter_id": "171710879"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2307" },
+      "screen_name": "JohnnyDoeSmith",
+      "user_twitter_id": "2394085266"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2306" },
+      "screen_name": "isaacdwebb",
+      "user_twitter_id": "431322054"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2305" },
+      "screen_name": "olliecarroll",
+      "user_twitter_id": "22799257"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2304" },
+      "screen_name": "kajtweets",
+      "user_twitter_id": "24649499"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2303" },
+      "screen_name": "StudMedia",
+      "user_twitter_id": "2438751121"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2302" },
+      "screen_name": "lobushkin",
+      "user_twitter_id": "119409449"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2301" },
+      "screen_name": "KalleKoponen",
+      "user_twitter_id": "135279185"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2300" },
+      "screen_name": "ISEUConcerned",
+      "user_twitter_id": "2377129874"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22ff" },
+      "screen_name": "profdavidharvey",
+      "user_twitter_id": "84944278"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22fe" },
+      "screen_name": "SimonOstrovsky",
+      "user_twitter_id": "138128898"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22fd" },
+      "screen_name": "awesome_maps",
+      "user_twitter_id": "94353791"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22fc" },
+      "screen_name": "BoredElonMusk",
+      "user_twitter_id": "1666038950"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22fb" },
+      "screen_name": "itsector",
+      "user_twitter_id": "2433860269"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22fa" },
+      "screen_name": "KharkovPeople",
+      "user_twitter_id": "1734500287"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22f9" },
+      "screen_name": "StateOfUkraine",
+      "user_twitter_id": "2371458720"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22f8" },
+      "screen_name": "Queen_UK",
+      "user_twitter_id": "140118545"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22f7" },
+      "screen_name": "asolovyov",
+      "user_twitter_id": "13449282"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22f6" },
+      "screen_name": "newkozma",
+      "user_twitter_id": "2396497268"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22f5" },
+      "screen_name": "wireframes",
+      "user_twitter_id": "18780641"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22f4" },
+      "screen_name": "goddan",
+      "user_twitter_id": "23631125"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e22f3" },
+      "screen_name": "shelomovskiy",
+      "user_twitter_id": "90999438"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23ba" },
+      "screen_name": "IgorTomych",
+      "user_twitter_id": "21994217"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b9" },
+      "screen_name": "DenDidenko",
+      "user_twitter_id": "629707920"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b8" },
+      "screen_name": "khinkulova",
+      "user_twitter_id": "20133694"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b7" },
+      "screen_name": "sadserver",
+      "user_twitter_id": "116568685"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b6" },
+      "screen_name": "gorodetskaya",
+      "user_twitter_id": "56698771"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b5" },
+      "screen_name": "olya_rudenko",
+      "user_twitter_id": "307562004"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b4" },
+      "screen_name": "PeterShuklinov",
+      "user_twitter_id": "253445158"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b3" },
+      "screen_name": "toddkramer14",
+      "user_twitter_id": "2255934536"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b2" },
+      "screen_name": "JarekJunko",
+      "user_twitter_id": "919637708"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b1" },
+      "screen_name": "curlybrace",
+      "user_twitter_id": "11747112"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23b0" },
+      "screen_name": "CommonCraft",
+      "user_twitter_id": "14977120"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23af" },
+      "screen_name": "leelefever",
+      "user_twitter_id": "12279"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23ae" },
+      "screen_name": "EvgenyFeldman",
+      "user_twitter_id": "98046488"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e23ad" },
+      "screen_name": "MykhayloYulia",
+      "user_twitter_id": "1883673271"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23ac" },
+      "screen_name": "BalmforthTom",
+      "user_twitter_id": "108882861"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23ab" },
+      "screen_name": "klashkevich",
+      "user_twitter_id": "584904187"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23aa" },
+      "screen_name": "aliaksandrau",
+      "user_twitter_id": "51285139"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a9" },
+      "screen_name": "riarip",
+      "user_twitter_id": "2237584520"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a8" },
+      "screen_name": "maribst",
+      "user_twitter_id": "6100532"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a7" },
+      "screen_name": "MichaelShchur",
+      "user_twitter_id": "1334466152"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a6" },
+      "screen_name": "Teatr_PS",
+      "user_twitter_id": "935432317"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a5" },
+      "screen_name": "iKoss",
+      "user_twitter_id": "76633222"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a4" },
+      "screen_name": "sro4no",
+      "user_twitter_id": "271470505"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a3" },
+      "screen_name": "sashaeve",
+      "user_twitter_id": "52724002"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a2" },
+      "screen_name": "panjiva",
+      "user_twitter_id": "31567908"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a1" },
+      "screen_name": "alisnyak",
+      "user_twitter_id": "243122944"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e23a0" },
+      "screen_name": "pojitonov",
+      "user_twitter_id": "16931977"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e239f" },
+      "screen_name": "Twiplomacy",
+      "user_twitter_id": "590152667"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e239e" },
+      "screen_name": "basvasilich",
+      "user_twitter_id": "10679432"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e239d" },
+      "screen_name": "toivonens",
+      "user_twitter_id": "215559242"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e239c" },
+      "screen_name": "vorobyov",
+      "user_twitter_id": "18125466"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e239b" },
+      "screen_name": "OmniGraffle",
+      "user_twitter_id": "10919222"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e239a" },
+      "screen_name": "ianbremmer",
+      "user_twitter_id": "60783724"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2399" },
+      "screen_name": "russian_market",
+      "user_twitter_id": "243318995"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2398" },
+      "screen_name": "axurerp",
+      "user_twitter_id": "18772894"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2397" },
+      "screen_name": "evernote_ru",
+      "user_twitter_id": "24420652"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2396" },
+      "screen_name": "cdixon",
+      "user_twitter_id": "2529971"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2395" },
+      "screen_name": "SalesletterRSS",
+      "user_twitter_id": "186507223"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2394" },
+      "screen_name": "rjs",
+      "user_twitter_id": "10079052"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2393" },
+      "screen_name": "AdhamDannaway",
+      "user_twitter_id": "306632733"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2392" },
+      "screen_name": "KyivPostLS",
+      "user_twitter_id": "1499192270"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2391" },
+      "screen_name": "indigodesigned",
+      "user_twitter_id": "731530346"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2390" },
+      "screen_name": "ArtyomTrityak",
+      "user_twitter_id": "358667211"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e238f" },
+      "screen_name": "BillBeacham",
+      "user_twitter_id": "44911429"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e238e" },
+      "screen_name": "Plastinfo",
+      "user_twitter_id": "138358879"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e238d" },
+      "screen_name": "nfergus",
+      "user_twitter_id": "49279876"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e238c" },
+      "screen_name": "eSputnikApp",
+      "user_twitter_id": "524440824"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e238b" },
+      "screen_name": "TomSpota",
+      "user_twitter_id": "121291263"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e238a" },
+      "screen_name": "Zhyuliana",
+      "user_twitter_id": "281469917"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2389" },
+      "screen_name": "studiokaplunoff",
+      "user_twitter_id": "1295645678"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2388" },
+      "screen_name": "MRC_en",
+      "user_twitter_id": "63176507"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2387" },
+      "screen_name": "magda_lyna",
+      "user_twitter_id": "283505692"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2386" },
+      "screen_name": "odinden",
+      "user_twitter_id": "119518957"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2385" },
+      "screen_name": "maxua",
+      "user_twitter_id": "14257180"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2384" },
+      "screen_name": "TheQuotesPorn",
+      "user_twitter_id": "201364882"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2383" },
+      "screen_name": "codeorg",
+      "user_twitter_id": "850107536"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2382" },
+      "screen_name": "tweetsauce",
+      "user_twitter_id": "395477244"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2381" },
+      "screen_name": "moonk",
+      "user_twitter_id": "14866314"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2380" },
+      "screen_name": "musiyaka",
+      "user_twitter_id": "103311899"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e237f" },
+      "screen_name": "mickolka",
+      "user_twitter_id": "18938204"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e237e" },
+      "screen_name": "vkontakteads",
+      "user_twitter_id": "245310182"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e237d" },
+      "screen_name": "ChristopherJM",
+      "user_twitter_id": "16827148"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e237c" },
+      "screen_name": "L000CH",
+      "user_twitter_id": "234568320"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e237b" },
+      "screen_name": "irkeyshn",
+      "user_twitter_id": "19400571"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e237a" },
+      "screen_name": "NatalyDuyko",
+      "user_twitter_id": "366790380"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2379" },
+      "screen_name": "LovimNet",
+      "user_twitter_id": "108727992"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2378" },
+      "screen_name": "dmkot",
+      "user_twitter_id": "38843927"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2377" },
+      "screen_name": "frontend_ua",
+      "user_twitter_id": "1076099383"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2376" },
+      "screen_name": "nodar_giorgadze",
+      "user_twitter_id": "135511082"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2375" },
+      "screen_name": "jimmy_wales",
+      "user_twitter_id": "49793"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2374" },
+      "screen_name": "mlaptev",
+      "user_twitter_id": "66833244"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2373" },
+      "screen_name": "KharkivJS",
+      "user_twitter_id": "903527479"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2372" },
+      "screen_name": "tinynietzsche",
+      "user_twitter_id": "131891655"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2371" },
+      "screen_name": "SandeepVadgama",
+      "user_twitter_id": "109806619"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2370" },
+      "screen_name": "forzi4life",
+      "user_twitter_id": "147901917"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e236f" },
+      "screen_name": "shyhimaha",
+      "user_twitter_id": "118692837"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e236e" },
+      "screen_name": "gaidar",
+      "user_twitter_id": "17804635"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e236d" },
+      "screen_name": "ApacheOO",
+      "user_twitter_id": "327511027"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e236c" },
+      "screen_name": "TheRealSheldonC",
+      "user_twitter_id": "434130489"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e236b" },
+      "screen_name": "mairbek",
+      "user_twitter_id": "15517305"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e236a" },
+      "screen_name": "skyfonts",
+      "user_twitter_id": "634824267"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2369" },
+      "screen_name": "razbakov",
+      "user_twitter_id": "90292699"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2368" },
+      "screen_name": "sbulaev",
+      "user_twitter_id": "3314161"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2367" },
+      "screen_name": "RealtimeBoard",
+      "user_twitter_id": "508685581"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2366" },
+      "screen_name": "Armstreet",
+      "user_twitter_id": "211877232"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2365" },
+      "screen_name": "Lekzz",
+      "user_twitter_id": "6061492"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2364" },
+      "screen_name": "DaryaChu",
+      "user_twitter_id": "529704805"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2363" },
+      "screen_name": "zfort",
+      "user_twitter_id": "160505828"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2362" },
+      "screen_name": "alekskorovin",
+      "user_twitter_id": "123081409"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2361" },
+      "screen_name": "_TLK",
+      "user_twitter_id": "111316503"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2360" },
+      "screen_name": "dordim",
+      "user_twitter_id": "93939103"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e235f" },
+      "screen_name": "lilumi",
+      "user_twitter_id": "14241983"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e235e" },
+      "screen_name": "globallogic_ua",
+      "user_twitter_id": "156038407"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e235d" },
+      "screen_name": "sidorenko_intl",
+      "user_twitter_id": "237196977"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e235c" },
+      "screen_name": "kaktuse",
+      "user_twitter_id": "22438869"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e235b" },
+      "screen_name": "che_se",
+      "user_twitter_id": "56802072"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e235a" },
+      "screen_name": "AteMaS",
+      "user_twitter_id": "40866631"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e79325c51208b5e2359" },
+      "screen_name": "kaengurufan",
+      "user_twitter_id": "295291919"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2358" },
+      "screen_name": "EpamKharkiv",
+      "user_twitter_id": "309554488"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e79325c51208b5e2357" },
+      "screen_name": "sigmaswgroup",
+      "user_twitter_id": "273343458"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2408" },
+      "screen_name": "ikalnytskyi",
+      "user_twitter_id": "54481834"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2407" },
+      "screen_name": "YanablinYana",
+      "user_twitter_id": "791015390"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2406" },
+      "screen_name": "mr_DracuLALA",
+      "user_twitter_id": "118124692"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2405" },
+      "screen_name": "touraco",
+      "user_twitter_id": "43245763"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2404" },
+      "screen_name": "Igor_Marushkin",
+      "user_twitter_id": "98214844"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2403" },
+      "screen_name": "arturmihno",
+      "user_twitter_id": "21933961"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2402" },
+      "screen_name": "park_gorkogo",
+      "user_twitter_id": "626447011"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2401" },
+      "screen_name": "kwizme_en",
+      "user_twitter_id": "162703822"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e2400" },
+      "screen_name": "Zagreba",
+      "user_twitter_id": "38395948"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ff" },
+      "screen_name": "startupzest",
+      "user_twitter_id": "17710804"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23fe" },
+      "screen_name": "exis10s",
+      "user_twitter_id": "14804788"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23fd" },
+      "screen_name": "dadakinder",
+      "user_twitter_id": "68748184"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23fc" },
+      "screen_name": "syned",
+      "user_twitter_id": "18688648"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23fb" },
+      "screen_name": "gray_ru",
+      "user_twitter_id": "8518642"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23fa" },
+      "screen_name": "Ophelia_Millais",
+      "user_twitter_id": "522296291"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f9" },
+      "screen_name": "ThePopTartJesus",
+      "user_twitter_id": "524804189"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f8" },
+      "screen_name": "stasparshin",
+      "user_twitter_id": "21772337"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f7" },
+      "screen_name": "ArthouseUA",
+      "user_twitter_id": "42886733"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f6" },
+      "screen_name": "Vinogradsky",
+      "user_twitter_id": "84564866"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f5" },
+      "screen_name": "_lgmkr",
+      "user_twitter_id": "43702473"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f4" },
+      "screen_name": "grozyan",
+      "user_twitter_id": "39748736"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f3" },
+      "screen_name": "promodo_en",
+      "user_twitter_id": "98392754"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f2" },
+      "screen_name": "Promodo_ua",
+      "user_twitter_id": "277931124"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f1" },
+      "screen_name": "allprosto",
+      "user_twitter_id": "213747357"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23f0" },
+      "screen_name": "AndriyLesyuk",
+      "user_twitter_id": "351177855"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ef" },
+      "screen_name": "OlexiyFedorov",
+      "user_twitter_id": "21042101"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ee" },
+      "screen_name": "realtykharkovua",
+      "user_twitter_id": "299958710"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ed" },
+      "screen_name": "seanaiken",
+      "user_twitter_id": "18255038"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ec" },
+      "screen_name": "simonsinek",
+      "user_twitter_id": "15970050"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23eb" },
+      "screen_name": "yandex",
+      "user_twitter_id": "25697989"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ea" },
+      "screen_name": "DataArt",
+      "user_twitter_id": "17392744"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e9" },
+      "screen_name": "epam_ukraine",
+      "user_twitter_id": "429154325"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e8" },
+      "screen_name": "FizaIsa",
+      "user_twitter_id": "437266442"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e7" },
+      "screen_name": "dvydrin",
+      "user_twitter_id": "126979226"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e6" },
+      "screen_name": "adizes",
+      "user_twitter_id": "27251518"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e5" },
+      "screen_name": "DENIELER",
+      "user_twitter_id": "341466469"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e4" },
+      "screen_name": "vkontakte",
+      "user_twitter_id": "1116071"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e3" },
+      "screen_name": "spaceinsideme",
+      "user_twitter_id": "23771002"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e2" },
+      "screen_name": "alex_kolb",
+      "user_twitter_id": "127287996"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e1" },
+      "screen_name": "McSimba",
+      "user_twitter_id": "14613569"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23e0" },
+      "screen_name": "COTOHA",
+      "user_twitter_id": "20502974"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23df" },
+      "screen_name": "ain_ua",
+      "user_twitter_id": "103841558"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23de" },
+      "screen_name": "ITSMF_RUSSIA",
+      "user_twitter_id": "237225264"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23dd" },
+      "screen_name": "MrCoreMan",
+      "user_twitter_id": "489614555"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23dc" },
+      "screen_name": "rabotakharkov",
+      "user_twitter_id": "58429096"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23db" },
+      "screen_name": "microbash",
+      "user_twitter_id": "305848405"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23da" },
+      "screen_name": "TEDxKharkiv",
+      "user_twitter_id": "377304257"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d9" },
+      "screen_name": "ibaggage",
+      "user_twitter_id": "111424844"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d8" },
+      "screen_name": "Sickboyru",
+      "user_twitter_id": "203133691"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d7" },
+      "screen_name": "pocheptsov",
+      "user_twitter_id": "29730743"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d6" },
+      "screen_name": "e0ne",
+      "user_twitter_id": "17865969"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d5" },
+      "screen_name": "RomanKaterin4ik",
+      "user_twitter_id": "23185906"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d4" },
+      "screen_name": "Lihachoff",
+      "user_twitter_id": "54010939"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d3" },
+      "screen_name": "NumberOneBot",
+      "user_twitter_id": "65125029"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d2" },
+      "screen_name": "zfort_ua",
+      "user_twitter_id": "244593105"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d1" },
+      "screen_name": "psybook",
+      "user_twitter_id": "371255767"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23d0" },
+      "screen_name": "Rus_lana",
+      "user_twitter_id": "94638112"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23cf" },
+      "screen_name": "kolupaev",
+      "user_twitter_id": "19530272"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ce" },
+      "screen_name": "deadsociolog",
+      "user_twitter_id": "75587463"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23cd" },
+      "screen_name": "DAVID_LYNCH",
+      "user_twitter_id": "15962096"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23cc" },
+      "screen_name": "nikolaypavlov",
+      "user_twitter_id": "40875257"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23cb" },
+      "screen_name": "AleNKovch",
+      "user_twitter_id": "82819057"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23ca" },
+      "screen_name": "devakaru",
+      "user_twitter_id": "22407588"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c9" },
+      "screen_name": "IMartimyanova",
+      "user_twitter_id": "197797254"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c8" },
+      "screen_name": "NetwindRu",
+      "user_twitter_id": "289618124"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c7" },
+      "screen_name": "unpositive",
+      "user_twitter_id": "45824695"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c6" },
+      "screen_name": "yandex_ua",
+      "user_twitter_id": "28540007"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c5" },
+      "screen_name": "Maljar",
+      "user_twitter_id": "17234508"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c4" },
+      "screen_name": "seybaa",
+      "user_twitter_id": "149950496"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c3" },
+      "screen_name": "Znahar888",
+      "user_twitter_id": "255200306"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c2" },
+      "screen_name": "devua",
+      "user_twitter_id": "18934167"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c1" },
+      "screen_name": "b2blogger",
+      "user_twitter_id": "10281502"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23c0" },
+      "screen_name": "NietzscheQuotes",
+      "user_twitter_id": "50056496"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23bf" },
+      "screen_name": "manasyan",
+      "user_twitter_id": "16904635"
+    },
+    {
+      "relations": ["following"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23be" },
+      "screen_name": "yar1k",
+      "user_twitter_id": "40212682"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23bd" },
+      "screen_name": "ikeleberda",
+      "user_twitter_id": "47726753"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23bc" },
+      "screen_name": "Annka_Moseva",
+      "user_twitter_id": "203877522"
+    },
+    {
+      "relations": ["following", "followed_by"],
+      "_id": { "$oid": "5b634e7a325c51208b5e23bb" },
+      "screen_name": "welcome_eddie",
+      "user_twitter_id": "44587318"
+    }
+  ],
+  "createdAt": { "$date": { "$numberLong": "1533234807318" } },
+  "updatedAt": { "$date": { "$numberLong": "1533234810030" } }
+}

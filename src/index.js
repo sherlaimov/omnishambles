@@ -1,30 +1,21 @@
 import * as d3 from 'd3';
-import chartFactory, { tooltip } from './helpers/common';
+// { tooltip }
+import chartFactory from './helpers/common';
 import { data2 } from '../data/stub-data';
 import getFriends from './dataHandler';
 
-async function getData() {
-  const data = await getFriends();
-  const mutualNodes = data.nodes
-    .filter(({ screen_name }) => screen_name !== 'sherlaimov')
-    .filter(({ relations }) => relations.includes('following') && relations.includes('followed_by'))
-    .filter((item, id) => id <= 20);
-  const parentNode = data.nodes.find(user => user.screen_name === 'sherlaimov');
-  const links = mutualNodes.map(({ id }) => ({ target: id, source: 'sherlaimov' }));
-  links.push({ target: 'sherlaimov', source: 'sherlaimov' });
-  mutualNodes.push(parentNode);
-
-  buildGraph({ nodes: mutualNodes, links });
-}
-getData();
-
-const width = 900;
-const height = 600;
-const radius = 20;
+const width = window.innerWidth;
+const height = window.innerHeight;
 
 const colors = d3.scaleOrdinal(d3.schemeDark2);
 
 const { svg, container } = chartFactory();
+
+const tooltip = d3
+  .select('body')
+  .append('div')
+  .classed('tooltip', true)
+  .style('opacity', 0); // start invisible
 
 svg
   .call(
@@ -38,14 +29,11 @@ const simulation = d3
   .forceSimulation()
   .force(
     'link',
-    d3.forceLink().id(d => {
-      return d.id;
-    })
-    // .distance(function(d) {
-    //   console.log(d);
-    //   return d.source.id;
-    // })
-    // .strength(0.5)
+    d3
+      .forceLink()
+      .id(d => d.id)
+      .distance(d => d.target.followers_count / 50)
+      .strength(0.2)
   )
   .force('charge', d3.forceManyBody().strength(-500))
   .force('center', d3.forceCenter(width / 2, height / 2));
@@ -56,31 +44,33 @@ let node = container.selectAll('.node');
 function buildGraph(data) {
   const { nodes, links } = data;
 
-  simulation.nodes(nodes).on('tick', ticked);
-  simulation.force('link').links(links);
-
+  link = link.data(links);
+  link.exit().remove();
   link = link
-    .data(links)
     .enter()
     .append('line')
-    .attr('class', 'link');
+    .attr('class', 'link')
+    .merge(link);
+
+  node = node.data(nodes);
+  node
+    .exit()
+    .transition()
+    .attr('r', 0)
+    .remove();
 
   node = node
-    .data(nodes)
     .enter()
     .append('g')
     .attr('class', 'node');
-
+  // .merge(node);
   node
     .append('circle')
     .attr('r', d => d.followers_count / 100)
-    .attr('stroke-width', d => Math.sqrt(d.x))
-    .style('fill', (d, i) => {
-      return colors(i);
-    });
+    .style('fill', (d, i) => colors(i))
+    .merge(node);
 
   node.on('dblclick', releaseNode);
-
   node.call(
     d3
       .drag()
@@ -91,9 +81,14 @@ function buildGraph(data) {
 
   node.append('text').text(d => d.screen_name);
 
-  node.call(tooltip(d => d.screen_name, container));
+  // node.call(tooltip(d => d.screen_name, container));
+  simulation.nodes(nodes).on('tick', ticked);
+  simulation.force('link').links(links);
+  simulation.alpha(1).restart();
 
-  function ticked(e) {
+  node.on('mouseover', d => showTooltip(d));
+  node.on('mouseleave', d => hideTooltip(d));
+  function ticked() {
     link
       .attr('x1', d => d.source.x)
       .attr('y1', d => d.source.y)
@@ -101,12 +96,45 @@ function buildGraph(data) {
       .attr('y2', d => d.target.y);
 
     // node.attr('cx', d => d.x).attr('cy', d => d.y);
-    node.attr('transform', function(d) {
-      return 'translate(' + d.x + ', ' + d.y + ')';
-    });
+    // since now we are dealing with the g SVG element
+    node.attr('transform', d => `translate(${d.x}, ${d.y})`);
   }
 }
 
+function showTooltip(d) {
+  const {
+    screen_name,
+    description,
+    followers_count,
+    friends_count,
+    location,
+    statuses_count,
+    ranking,
+    verified
+  } = d;
+  const htmlContent = [
+    `<p>Name: ${screen_name}</p>`,
+    `<p class="description">${description}</p>`,
+    `<p>Followers: ${followers_count}</p>`,
+    `<p>Following: ${friends_count}</p>`,
+    `<p>Location: ${location}</p>`,
+    `<p>Tweets total: ${statuses_count}</p>`
+  ].join('');
+  tooltip
+    .html(htmlContent)
+    .style('left', `${d3.event.pageX - d3.select('.tooltip').node().offsetWidth - 5}px`)
+    .style('top', `${d3.event.pageY - d3.select('.tooltip').node().offsetHeight}px`);
+  tooltip
+    .transition()
+    .duration(300)
+    .style('opacity', 1); // show the tooltip
+}
+function hideTooltip() {
+  tooltip
+    .transition()
+    .duration(200)
+    .style('opacity', 0);
+}
 simulation.on('end', () => {
   console.log('end event');
 });
@@ -132,3 +160,26 @@ function releaseNode(d) {
   d.fx = null;
   d.fy = null;
 }
+
+const select = document.querySelector('select');
+let selectedValue = select[select.selectedIndex].value;
+select.addEventListener('change', e => {
+  selectedValue = e.currentTarget.value;
+  getData();
+});
+
+// relations.includes('following') &&
+async function getData() {
+  const data = await getFriends();
+  const mutualNodes = data.nodes
+    .filter(({ screen_name }) => screen_name !== 'sherlaimov')
+    .filter(({ relations }) => relations.includes(selectedValue));
+  // .filter((item, id) => id <= 50);
+  const parentNode = data.nodes.find(user => user.screen_name === 'sherlaimov');
+  const links = mutualNodes.map(({ id }) => ({ target: id, source: 'sherlaimov' }));
+  // links.push({ target: 'sherlaimov', source: 'sherlaimov' });
+  mutualNodes.push(parentNode);
+
+  buildGraph({ nodes: mutualNodes, links });
+}
+getData();

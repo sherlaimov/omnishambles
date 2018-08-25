@@ -7,8 +7,8 @@ const protoChart = {
     left: 10,
     right: 10,
     top: 10,
-    bottom: 10,
-  },
+    bottom: 10
+  }
 };
 
 export default function chartFactory(opts, proto = protoChart) {
@@ -35,52 +35,23 @@ export function addRoot(data, itemKey, parentKey, joinValue) {
   });
   data.push({
     [parentKey]: '',
-    [itemKey]: joinValue,
+    [itemKey]: joinValue
   });
 
   return data;
 }
 
 export function linkHorizontal(d) {
-  return (
-    'M' +
-    d.source.x +
-    ',' +
-    d.source.y +
-    'C' +
-    d.source.x +
-    ',' +
-    (d.source.y + d.target.y) / 2 +
-    ' ' +
-    d.target.x +
-    ',' +
-    (d.source.y + d.target.y) / 2 +
-    ' ' +
-    d.target.x +
-    ',' +
-    d.target.y
-  );
+  return `M${d.source.x},${d.source.y}C${d.source.x},${(d.source.y + d.target.y) / 2} ${
+    d.target.x
+  },${(d.source.y + d.target.y) / 2} ${d.target.x},${d.target.y}`;
 }
 
 export function linkVertical(d) {
-  return (
-    'M' +
-    d.source.x +
-    ',' +
-    d.source.y +
-    'C' +
-    (d.source.x + d.target.x) / 2 +
-    ',' +
-    d.source.y +
-    ' ' +
-    (d.source.x + d.target.x) / 2 +
-    ',' +
-    d.target.y +
-    ' ' +
-    d.target.x +
-    ',' +
-    d.target.y
-  );
+  return `M${d.source.x},${d.source.y}C${(d.source.x + d.target.x) / 2},${d.source.y} ${(d.source
+    .x +
+    d.target.x) /
+    2},${d.target.y} ${d.target.x},${d.target.y}`;
 }
 
 // export function addRoot(data, parentKey, parentValue) {
@@ -163,8 +134,6 @@ export function tooltip(text, chart) {
     function mouseover(d) {
       const path = d3.select(this);
       path.classed('highlighted', true);
-      // console.log(this);
-      // console.log(chart);
       const mouse = d3.mouse(chart.node());
       const tool = chart
         .append('g')
@@ -246,8 +215,8 @@ export function makeTree(data, filterByDonor, name1, name2) {
       children: donatedTo.map(d => ({
         name: name2(d),
         count: 0,
-        children: [],
-      })),
+        children: []
+      }))
     };
   });
 

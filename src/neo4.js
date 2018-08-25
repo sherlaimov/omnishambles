@@ -26,7 +26,7 @@ svg
     orient: 'auto',
     markerWidth: 13,
     markerHeight: 13,
-    xoverflow: 'visible',
+    xoverflow: 'visible'
   })
   .append('svg:path')
   .attr('d', 'M 0,-5 L 10 ,0 L 0,5')
@@ -39,9 +39,7 @@ const simulation = d3
     'link',
     d3
       .forceLink()
-      .id(function(d) {
-        return d.id;
-      })
+      .id((d) => d.id)
       .distance(100)
     // .strength()
   )
@@ -84,9 +82,7 @@ function update(links, nodes) {
     .attr('class', 'link')
     .attr('marker-end', 'url(#arrowhead)');
 
-  link.append('title').text(function(d) {
-    return d.type;
-  });
+  link.append('title').text((d) => d.type);
 
   const edgepaths = svg
     .selectAll('.edgepath')
@@ -97,9 +93,9 @@ function update(links, nodes) {
       class: 'edgepath',
       'fill-opacity': 0,
       'stroke-opacity': 0,
-      id: function(d, i) {
-        return 'edgepath' + i;
-      },
+      id(d, i) {
+        return `edgepath${  i}`;
+      }
     })
     .style('pointer-events', 'none');
 
@@ -111,24 +107,20 @@ function update(links, nodes) {
     .style('pointer-events', 'none')
     .attrs({
       class: 'edgelabel',
-      id: function(d, i) {
-        return 'edgelabel' + i;
+      id(d, i) {
+        return `edgelabel${  i}`;
       },
       'font-size': 10,
-      fill: '#aaa',
+      fill: '#aaa'
     });
 
   edgelabels
     .append('textPath')
-    .attr('xlink:href', function(d, i) {
-      return '#edgepath' + i;
-    })
+    .attr('xlink:href', (d, i) => `#edgepath${  i}`)
     .style('text-anchor', 'middle')
     .style('pointer-events', 'none')
     .attr('startOffset', '50%')
-    .text(function(d) {
-      return d.type;
-    });
+    .text((d) => d.type);
 
   node = svg
     .selectAll('.node')
@@ -141,39 +133,33 @@ function update(links, nodes) {
         .drag()
         .on('start', dragstarted)
         .on('drag', dragged)
-      //.on("end", dragended)
+      // .on("end", dragended)
     );
 
   node
     .append('circle')
     .attr('r', 5)
-    .style('fill', function(d, i) {
-      return colors(i);
-    });
+    .style('fill', (d, i) => colors(i));
 
-  node.append('title').text(function(d) {
-    return d.id;
-  });
+  node.append('title').text((d) => d.id);
 
   node
     .append('text')
     .attr('dy', -3)
-    .text(function(d) {
-      return d.name + ':' + d.label;
-    });
-    
+    .text((d) => `${d.name  }:${  d.label}`);
+
   node
-    .on('mouseover', function(d) {
+    .on('mouseover', (d) => {
       tooltip
         .transition()
         .duration(300)
         .style('opacity', 1); // show the tooltip
       tooltip
         .html(d.name)
-        .style('left', d3.event.pageX - d3.select('.tooltip').node().offsetWidth - 5 + 'px')
-        .style('top', d3.event.pageY - d3.select('.tooltip').node().offsetHeight + 'px');
+        .style('left', `${d3.event.pageX - d3.select('.tooltip').node().offsetWidth - 5  }px`)
+        .style('top', `${d3.event.pageY - d3.select('.tooltip').node().offsetHeight  }px`);
     })
-    .on('mouseleave', function(d) {
+    .on('mouseleave', (d) => {
       tooltip
         .transition()
         .duration(200)
@@ -185,26 +171,14 @@ function update(links, nodes) {
   function ticked() {
     // console.log('tick');
     link
-      .attr('x1', function(d) {
-        return d.source.x;
-      })
-      .attr('y1', function(d) {
-        return d.source.y;
-      })
-      .attr('x2', function(d) {
-        return d.target.x;
-      })
-      .attr('y2', function(d) {
-        return d.target.y;
-      });
+      .attr('x1', (d) => d.source.x)
+      .attr('y1', (d) => d.source.y)
+      .attr('x2', (d) => d.target.x)
+      .attr('y2', (d) => d.target.y);
 
-    node.attr('transform', function(d) {
-      return 'translate(' + d.x + ', ' + d.y + ')';
-    });
+    node.attr('transform', (d) => `translate(${  d.x  }, ${  d.y  })`);
 
-    edgepaths.attr('d', function(d) {
-      return 'M ' + d.source.x + ' ' + d.source.y + ' L ' + d.target.x + ' ' + d.target.y;
-    });
+    edgepaths.attr('d', (d) => `M ${  d.source.x  } ${  d.source.y  } L ${  d.target.x  } ${  d.target.y}`);
 
     edgelabels.attr('transform', function(d) {
       if (d.target.x < d.source.x) {
@@ -212,10 +186,10 @@ function update(links, nodes) {
 
         const rx = bbox.x + bbox.width / 2;
         const ry = bbox.y + bbox.height / 2;
-        return 'rotate(180 ' + rx + ' ' + ry + ')';
-      } else {
+        return `rotate(180 ${  rx  } ${  ry  })`;
+      } 
         return 'rotate(0)';
-      }
+      
     });
   }
 }

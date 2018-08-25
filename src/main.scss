@@ -1,33 +1,113 @@
-// .node {
-//   fill: #ccc;
-//   stroke: #fff;
-//   stroke-width: 2px;
-// }
+$select-color: #fff;
+$select-background: #c0392b;
+$select-width: 220px;
+$select-height: 40px;
 
-/* .link {
-      stroke: #777;
-      stroke-width: 2px;
-    } */
+body {
+  background-color: #1b1b19;
+  color: #fff;
+}
+text {
+  fill: #fff;
+}
 
 .link {
   stroke: #999;
   stroke-opacity: 0.6;
   stroke-width: 1px;
 }
+.node {
+  cursor: pointer;
+  &:hover {
+    & circle {
+      stroke: #fff;
+      stroke-width: 1px;
+    }
+  }
+}
 
-div.tooltip {
+.tooltip {
+  & .description {
+    font-weight: normal;
+    font-size: 0.9rem;
+  }
+  color: #dedede;
   position: absolute;
-  text-align: center;
-  padding: 5px;
-  background: honeydew;
-  font: 16px sans-serif;
+  text-align: left;
+  padding: 10px;
+  background: #000;
+  font: 1rem sans-serif;
   font-weight: bold;
   border: 1px solid black;
   border-radius: 8px;
   pointer-events: none;
-  /* keep the mouseover when over the tooltip */
+  max-width: 230px;
 }
 
+/* Custom dropdown */
+.custom-dropdown {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 10px; /* demo only */
+  select {
+    cursor: pointer;
+    background-color: #606060;
+    color: #fff;
+    font-size: 0.9rem;
+    padding: 0.5em;
+    padding-right: 2em;
+    border: 0;
+    margin: 0;
+    border-radius: 3px;
+    text-indent: 0.01px;
+    text-overflow: '';
+    -webkit-appearance: button; /* hide default arrow in chrome OSX */
+  }
+}
+
+.custom-dropdown::before,
+.custom-dropdown::after {
+  content: '';
+  position: absolute;
+  pointer-events: none;
+}
+
+.custom-dropdown::after {
+  /*  Custom dropdown arrow */
+  content: '\25BC';
+  height: 1em;
+  font-size: 0.625em;
+  line-height: 1;
+  right: 1.2em;
+  top: 50%;
+  margin-top: -0.5em;
+}
+
+.custom-dropdown::before {
+  /*  Custom dropdown arrow cover */
+  width: 2em;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.custom-dropdown select[disabled] {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.custom-dropdown select[disabled]::after {
+  color: rgba(0, 0, 0, 0.1);
+}
+
+.custom-dropdown::before {
+  background-color: rgba(0, 0, 0, 0.15);
+}
+
+.custom-dropdown::after {
+  color: rgba(0, 0, 0, 0.4);
+}
 /* path {
       fill: none;
       stroke: #646464;
@@ -43,3 +123,54 @@ div.tooltip {
     svg {
       background-color: #897b452e
     } */
+/*
+.tooltip {
+    display:inline-block;
+    position:relative;
+    border-bottom:1px dotted #666;
+    text-align:left;
+}
+
+.tooltip .top {
+    min-width:200px; 
+    top:-20px;
+    left:50%;
+    transform:translate(-50%, -100%);
+    padding:10px 20px;
+    color:#444444;
+    background-color:#EEEEEE;
+    font-weight:normal;
+    font-size:13px;
+    border-radius:8px;
+    position:absolute;
+    z-index:99999999;
+    box-sizing:border-box;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+    display:none;
+}
+
+.tooltip:hover .top {
+    display:block;
+}
+
+.tooltip .top i {
+    position:absolute;
+    top:100%;
+    left:50%;
+    margin-left:-12px;
+    width:24px;
+    height:12px;
+    overflow:hidden;
+}
+
+.tooltip .top i::after {
+    content:'';
+    position:absolute;
+    width:12px;
+    height:12px;
+    left:50%;
+    transform:translate(-50%,-50%) rotate(45deg);
+    background-color:#EEEEEE;
+    box-shadow:0 1px 8px rgba(0,0,0,0.5);
+}
+*/

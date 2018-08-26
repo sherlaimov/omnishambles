@@ -37,12 +37,14 @@ const simulation = d3
   )
   .force('charge', d3.forceManyBody().strength(-500))
   .force('center', d3.forceCenter(width / 2, height / 2));
+// .alphaTarget(1);
 
 let link = container.selectAll('.link');
 let node = container.selectAll('.node');
 
 function buildGraph(data) {
   const { nodes, links } = data;
+  const t = d3.transition().duration(1000);
 
   link = link.data(links);
   link.exit().remove();
@@ -52,22 +54,36 @@ function buildGraph(data) {
     .attr('class', 'link')
     .merge(link);
 
+  function appendNodes(d, i) {
+    const currNode = d3.select(this);
+    currNode
+      .append('circle')
+      // .transition(t)
+      .attr('class', () => d.screen_name)
+      .attr('r', () => d.followers_count / 100)
+      .style('fill', () => colors(i));
+
+    currNode
+      .append('text')
+      .text(() => d.screen_name)
+      .attr('text-anchor', 'middle')
+      .attr('y', 5);
+  }
   node = node.data(nodes);
-  node
-    .exit()
-    .transition()
-    .attr('r', 0)
-    .remove();
+  // .style('fill', '#b26745')
+  // .transition(t)
+  // .attr('r', 0)
+  node.exit().remove();
+
+  // feeding nodes into simulation here is needed
+  // to bind x & y values for custom text positioning in appendNodes
+  simulation.nodes(nodes).on('tick', ticked);
 
   node = node
     .enter()
     .append('g')
-    .attr('class', 'node');
-  // .merge(node);
-  node
-    .append('circle')
-    .attr('r', d => d.followers_count / 100)
-    .style('fill', (d, i) => colors(i))
+    .attr('class', 'node')
+    .each(appendNodes)
     .merge(node);
 
   node.on('dblclick', releaseNode);
@@ -79,15 +95,13 @@ function buildGraph(data) {
       .on('end', dragEnded)
   );
 
-  node.append('text').text(d => d.screen_name);
-
   // node.call(tooltip(d => d.screen_name, container));
-  simulation.nodes(nodes).on('tick', ticked);
+  node.on('mouseover', d => showTooltip(d));
+  node.on('mouseleave', d => hideTooltip(d));
+
   simulation.force('link').links(links);
   simulation.alpha(1).restart();
 
-  node.on('mouseover', d => showTooltip(d));
-  node.on('mouseleave', d => hideTooltip(d));
   function ticked() {
     link
       .attr('x1', d => d.source.x)
@@ -142,8 +156,8 @@ simulation.on('end', () => {
 function dragStarted(d) {
   if (!d3.event.active) simulation.alphaTarget(0.3).restart();
   // d.fixed = true;
-  // d.fx = d.x;
-  // d.fy = d.y;
+  d.fx = d.x;
+  d.fy = d.y;
 }
 
 function dragged(d) {
@@ -153,6 +167,7 @@ function dragged(d) {
 
 function dragEnded(d) {
   if (!d3.event.active) simulation.alphaTarget(0);
+  // not setting these values to null keeps node where you left it
   // d.fx = null;
   // d.fy = null;
 }
@@ -177,7 +192,6 @@ async function getData() {
   // .filter((item, id) => id <= 50);
   const parentNode = data.nodes.find(user => user.screen_name === 'sherlaimov');
   const links = mutualNodes.map(({ id }) => ({ target: id, source: 'sherlaimov' }));
-  // links.push({ target: 'sherlaimov', source: 'sherlaimov' });
   mutualNodes.push(parentNode);
 
   buildGraph({ nodes: mutualNodes, links });

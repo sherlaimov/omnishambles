@@ -24,7 +24,7 @@ module.exports = {
     new CopyWebpackPlugin([
       {
         from: paths.data,
-        to: paths.dist + '/data',
+        to: `${paths.dist}/data`,
       },
     ]),
     new MiniCssExtractPlugin({

@@ -1,4 +1,4 @@
-const prepareFriendData = ({
+const mapUserData = ({
   followers_count,
   friends_count,
   ranking,
@@ -17,10 +17,10 @@ const prepareFriendData = ({
     friends_count: Number(friends_count.$numberInt),
     statuses_count: Number(statuses_count.$numberInt),
     ranking: _ranking,
-    ...rest,
+    ...rest
   };
 };
-export default async function getFriends() {
+export async function getFriends() {
   const getData = async () => {
     try {
       const response1 = await fetch('../data/sherlaimov-connections.json');
@@ -29,19 +29,14 @@ export default async function getFriends() {
       const friends = await response2.json();
       const data = connections.map((connection, id) => {
         const { screen_name } = connection;
-        const friendInfo = prepareFriendData(
-          friends.find(friend => friend.screen_name === screen_name)
-        );
+        const friendInfo = mapUserData(friends.find(friend => friend.screen_name === screen_name));
 
         return {
           ...connection,
           ...friendInfo,
-          id: screen_name,
+          id: screen_name
         };
       });
-      const sherlaimov = prepareFriendData(friends.find(user => user.screen_name === 'sherlaimov'));
-      sherlaimov.id = 'sherlaimov';
-      data.push(sherlaimov);
       return data;
     } catch (e) {
       console.error(e);
@@ -49,6 +44,27 @@ export default async function getFriends() {
     }
   };
   const nodes = await getData();
-  const links = nodes.map(({ id }) => ({ target: id, source: 'sherlaimov' }));
-  return { nodes, links };
+  return nodes;
+}
+
+export async function getFollowers() {
+  const getData = async () => {
+    try {
+      const response = await fetch('../data/followers.json');
+      const data = await response.json();
+      const followers = data.map(follower => {
+        const followerData = mapUserData(follower);
+        return {
+          ...followerData,
+          id: follower.screen_name
+        };
+      });
+      return followers;
+    } catch (e) {
+      console.log(e);
+      return undefined;
+    }
+  };
+  const nodes = await getData();
+  return nodes;
 }

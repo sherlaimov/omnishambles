@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Learning D3.js</title>
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css"> -->
   <link href="./dist/main.css" rel="stylesheet">
 </head>
 
@@ -15,8 +14,11 @@
   <div id="root" class="center-align"></div>
   <span class="custom-dropdown">
     <select>
-      <option selected="selected" value="followed_by">Followed By</option>
-      <option value="following">Following</option>
+      <option selected="selected" value="mutual_following">I follow & am followed by</option>
+      <option value="exclusive_followers">They follow me but I do not</option>
+      <option value="exclusive_friends">Only I follow</option>
+      <option value="all_friends">Following</option>
+      <option value="all_followers">Followers</option>
     </select>
   </span>
 

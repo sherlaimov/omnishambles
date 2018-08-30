@@ -2,8 +2,10 @@ import * as d3 from 'd3';
 // { tooltip }
 import chartFactory from './helpers/common';
 import { data2 } from '../data/stub-data';
-import getFriends from './dataHandler';
+import sherlaimovData from '../data/parentNode.json';
+import { getFriends, getFollowers } from './dataHandler';
 
+sherlaimovData.id = 'sherlaimov';
 const width = window.innerWidth;
 const height = window.innerHeight;
 
@@ -180,20 +182,42 @@ const select = document.querySelector('select');
 let selectedValue = select[select.selectedIndex].value;
 select.addEventListener('change', e => {
   selectedValue = e.currentTarget.value;
-  getData();
+  prepareGraphData();
 });
 
-// relations.includes('following') &&
-async function getData() {
-  const data = await getFriends();
-  const mutualNodes = data.nodes
-    .filter(({ screen_name }) => screen_name !== 'sherlaimov')
-    .filter(({ relations }) => relations.includes(selectedValue));
-  // .filter((item, id) => id <= 50);
-  const parentNode = data.nodes.find(user => user.screen_name === 'sherlaimov');
-  const links = mutualNodes.map(({ id }) => ({ target: id, source: 'sherlaimov' }));
-  mutualNodes.push(parentNode);
+const getParentNodeData = () => sherlaimovData;
 
-  buildGraph({ nodes: mutualNodes, links });
+async function getNodeData() {
+  const friends = await getFriends();
+  const followers = await getFollowers();
+  switch (selectedValue) {
+    case 'all_friends':
+      console.log('all_friends');
+      return friends;
+    case 'all_followers':
+      console.log('all_followers');
+      return followers;
+    case 'mutual_following':
+      console.log('mutual_following');
+      return friends.filter(friend =>
+        followers.find(follower => friend.screen_name === follower.screen_name)
+      );
+    case 'exclusive_followers':
+      return followers.filter(follower =>
+        friends.every(friend => friend.screen_name !== follower.screen_name)
+      );
+    case 'exclusive_friends':
+      return friends.filter(friend =>
+        followers.every(follower => follower.screen_name !== friend.screen_name)
+      );
+  }
 }
-getData();
+
+async function prepareGraphData() {
+  const nodes = await getNodeData();
+  const parentNode = getParentNodeData();
+  nodes.push(parentNode);
+  const links = nodes.map(({ id }) => ({ target: id, source: 'sherlaimov' }));
+  buildGraph({ nodes, links });
+}
+prepareGraphData();

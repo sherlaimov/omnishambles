@@ -1,6 +1,5 @@
 import index from './index';
 // import index from './neo4.js';
-// console.log(index);
 import './main.scss';
 // Selecting and appending elements
 // d3.select('#root')

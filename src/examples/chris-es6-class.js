@@ -10,9 +10,10 @@ class D3ForceGraph {
     const t = this;
 
     t.graphDiv = graphDiv;
+    console.log(graphDiv.scrollWidth);
     t.rect = t.graphDiv.getBoundingClientRect();
     t.width = t.graphDiv.scrollWidth;
-    t.height = t.graphDiv.scrollHeight;
+    t.height = window.innerHeight;
     t.center = { x: t.width / 2, y: t.height / 2 };
 
     t.svgId = svgId;
@@ -66,7 +67,7 @@ class D3ForceGraph {
     const result = svg
       .append('rect')
       .attr('id', 'backgroundId')
-      .attr('fill', '#F2F7F0')
+      // .attr('fill', '#F2F7F0')
       .attr('class', 'view')
       .attr('x', 0.5)
       .attr('y', 0.5)
@@ -149,7 +150,7 @@ class D3ForceGraph {
     );
   }
 
-  static update(t, simulation, graphNodesGroup, graphLinksGroup) {
+  update(t, simulation, graphNodesGroup, graphLinksGroup) {
     const nodes = t.graphData.nodes;
     const links = t.graphData.links;
 
@@ -281,7 +282,7 @@ class D3ForceGraph {
 
 // const graphDiv = document.querySelector('#ib-d3-graph-div');
 const graphDiv = document.createElement('div');
-graphDiv.id = '#ib-d3-graph-div';
+graphDiv.id = '#d3-graph';
 document.body.append(graphDiv);
 const graph = new D3ForceGraph(graphDiv, 'testSvgId');
 graph.init();
@@ -317,7 +318,7 @@ setTimeout(() => {
     count++;
     if (count % 100 === 0) {
       console.log(`count: ${count}`);
-      if (count % 400 === 0) {
+      if (count % 200 === 0) {
         clearInterval(interval);
       }
     }

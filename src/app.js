@@ -1,5 +1,6 @@
-import index from './index';
-// import index from './neo4.js';
+// import index from './index';
+// import index from './examples/chris-es6-class';
+import index from './examples/force-class';
 import './main.scss';
 // Selecting and appending elements
 // d3.select('#root')

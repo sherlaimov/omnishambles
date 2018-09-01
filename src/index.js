@@ -2,10 +2,9 @@ import * as d3 from 'd3';
 // { tooltip }
 import chartFactory from './helpers/common';
 import { data2 } from '../data/stub-data';
-import sherlaimovData from '../data/parentNode.json';
+import sherlaimovData from '../data/rootNode.json';
 import { getFriends, getFollowers } from './dataHandler';
 
-sherlaimovData.id = 'sherlaimov';
 const width = window.innerWidth;
 const height = window.innerHeight;
 
@@ -71,14 +70,12 @@ function buildGraph(data) {
       .attr('text-anchor', 'middle')
       .attr('y', 5);
   }
-  node = node.data(nodes);
+  node = node.data(nodes, d => d.id);
   // .style('fill', '#b26745')
   // .transition(t)
   // .attr('r', 0)
   node.exit().remove();
 
-  // feeding nodes into simulation here is needed
-  // to bind x & y values for custom text positioning in appendNodes
   simulation.nodes(nodes).on('tick', ticked);
 
   node = node
@@ -210,6 +207,8 @@ async function getNodeData() {
       return friends.filter(friend =>
         followers.every(follower => follower.screen_name !== friend.screen_name)
       );
+    default:
+      return friends;
   }
 }
 

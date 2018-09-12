@@ -60,6 +60,6 @@ module.exports = {
     compress: true,
     stats: 'errors-only',
     // publicPath: paths.dist,
-    port: 3000,
+    port: 8080,
   },
 };

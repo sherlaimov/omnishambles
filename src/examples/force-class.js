@@ -7,7 +7,6 @@ import { getFriends, getFollowers } from '../dataHandler';
 
 const colors = d3.scaleOrdinal(d3.schemeDark2);
 window.d3 = d3;
-
 class ForceGraph {
   constructor(chartId) {
     this.width = window.innerWidth;
@@ -79,9 +78,8 @@ class ForceGraph {
         const textWidth = this.getComputedTextLength();
         const parentWidth = this.parentNode.getBBox().width;
         let scale = 16;
-        if (parentWidth > textWidth) {
-          scale = ((parentWidth - 30) / this.getComputedTextLength()) * 16;
-        }
+        scale = ((parentWidth - 30) / textWidth) * 16;
+        if (scale < 16) scale = 16;
         return `${scale}px`;
       })
       .attr('text-anchor', 'middle')
